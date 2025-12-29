@@ -1,0 +1,307 @@
+:root {
+	--rosewater: rgb(245, 224, 220);
+	--flamingo: rgb(242, 205, 205);
+	--pink: rgb(245, 194, 231);
+	--mauve: rgb(203, 166, 247);
+	--red: rgb(243, 139, 168);
+	--maroon: rgb(235, 160, 172);
+	--peach: rgb(250, 179, 135);
+	--yellow: rgb(249, 226, 175);
+	--green: rgb(166, 227, 161);
+	--teal: rgb(148, 226, 213);
+	--sky: rgb(137, 220, 235);
+	--sapphire: rgb(116, 199, 236);
+	--blue: rgb(137, 180, 250);
+	--lavender: rgb(180, 190, 254);
+	--text: rgb(205, 214, 244);
+	--subtext1: rgb(186, 194, 222);
+	--subtext0: rgb(166, 173, 200);
+	--overlay2: rgb(147, 153, 178);
+	--overlay1: rgb(127, 132, 156);
+	--overlay0: rgb(108, 112, 134);
+	--surface2: rgb(88, 91, 112);
+	--surface1: rgb(69, 71, 90);
+	--surface0: rgb(40, 41, 54);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+	--crust: rgb(17, 17, 27);
+
+    --font: JetBrainsMonoNL NF;
+	--filter-svg: brightness(50%) sepia(200%) saturate(500000%) hue-rotate(227deg) saturate(5%) brightness(330%);
+}
+
+body {
+    font-size: 15px;
+    font-family: var( --font);
+    min-width: 320px;
+    color: var(--text);
+    background-color: var(--mantle);
+}
+
+#main-content-landing {
+    background-color: var(--surface0);
+}
+
+#rewards-header .l_header_container .l_header_left .l_header_title {
+    color: var(--text);
+}
+
+#rewards-header .l_header_container .redirect_link {
+    color: var(--text);
+}
+
+#redeemRewards .userBannerGradient.profileBanner #rewardsBanner {
+    background: var(--base);
+    color: var(--text);
+}
+
+#rewardsAngular .userBannerGradient.profileBanner #rewardsBanner {
+    background: var(--base);
+    color: var(--text);
+}
+
+#rewardsStatus .userBannerGradient.profileBanner #rewardsBanner {
+    background: var(--base);
+    color: var(--text);
+}
+
+#rewardsAngular .userBannerGradient.profileBanner #rewardsBanner .space-3-col.banner-padded-content .main-column .persona #levels-tooltip {
+    color: var(--text);
+}
+
+#rewardsAngular .userBannerGradient.profileBanner #rewardsBanner .space-3-col.banner-padded-content #tooltipContainer .c-action-trigger {
+    color: var(--text);
+}
+
+#rewardsAngular {
+    background: var(--surface0);
+    color: var(--text);
+}
+
+#redeemRewards .category {
+    visibility: collapse;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#redeemRewards .nav-links {
+    border: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#redeemRewards .nav-links li a.c-hyperlink {
+    color: var(--text);
+}
+
+#redeemRewards .nav-links li {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.c-dialog>[role="presentation"] {
+    background-color: rgba(17, 17, 27, 0.4);
+}
+
+.c-dialog [role="dialog"] {
+    border: 0;
+    outline: 0;
+    border-radius: 16px;
+    background-color: var(--base);
+}
+
+#badge-details .description {
+    color: var(--text);
+}
+
+.c-dialog.f-flow [role="dialog"]>.c-glyph:before {
+    color: var(--text);
+}
+
+.c-pivot a {
+    color: var(--text);
+}
+.c-pivot a:hover {
+    color: var(--teal);
+}
+
+nav.rewardsNavigationBar.navBar .c-pivot .f-active {
+    color: var(--text);
+    background-color: var(--surface2);
+    border-bottom: 0px;
+}
+
+#rewards-suggestedSearch-searchbox {
+    color: var(--teal);
+    background-color: var(--surface2);
+    font-family: var( --font);
+}
+
+#rewards-suggestedSearch-searchbox.active {
+    color: var(--teal);
+    background-color: var(--surface2);
+    font-family: var( --font);
+}
+
+::placeholder {
+    color: var(--text);
+}
+::-webkit-input-placeholder {
+    color: var(--text);
+}
+
+.c-meta-text {
+    color: var(--text);
+}
+
+.rewards_searchboxForm {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.suggestedSearchResults {
+    color: var(--teal);
+    background-color: var(--surface2);
+    font-family: var( --font);
+}
+
+.rewards_searchboxForm .icon {
+   filter: var(--filter-svg);
+}
+
+.suggestedSearchResults .search-suggest-icon-container {
+   filter: var(--filter-svg);
+}
+
+.search-suggest-icon-container .queryText {
+    color: var(--text);
+}
+
+#rewardsAngular #daily-sets .c-button .pcView {
+    color: var(--text);
+}
+
+#rewardsAngular #daily-sets .c-button.previous:before {
+   filter: var(--filter-svg);
+}
+
+#rewardsAngular #daily-sets .c-button.next:after {
+   filter: var(--filter-svg);
+}
+
+.c-glyph.glyph-info:before {
+    color: var(--text);
+}
+
+#rewardsAngular .userBannerGradient.profileBanner #rewardsBanner .space-3-col.banner-padded-content .info-columns .info-column .info a.c-call-to-action {
+    color: var(--teal);
+}
+
+#redeemRewards .userBannerGradient.profileBanner #rewardsBanner .space-3-col.banner-padded-content .info-columns .info-column .info a.c-call-to-action {
+    color: var(--teal);
+}
+
+#rewardsStatus .userBannerGradient.profileBanner #rewardsBanner .space-3-col.banner-padded-content .info-columns .info-column .info a.c-call-to-action {
+    color: var(--teal);
+}
+
+#rewardsStatus #badgeSummary {
+    border-radius: 16px;
+    background-color: var(--base);
+}
+
+.c-card .c-card-content {
+    border-radius: 16px;
+    background-color: var(--surface1);
+}
+
+#rewardsAngular #redeem-info.byCard .m-card-group .c-card.f-double .c-card-content card-content .imageContainer .rewardsBodymovin {
+    border-radius: 16px;
+}
+
+#redeemRewards #redeemCatalog .c-card-content .nonclickable-card .comingsoon {
+    color: var(--text) !important;
+}
+
+#redeemRewards #oneUiRedeemCatalog .contentWrapper #redeemCatalog .m-card-group .f-single .contentContainer .searchByName {
+    color: var(--text);
+}
+
+#redeemRewards #oneUiRedeemCatalog .contentWrapper #redeemCatalog .m-card-group .f-single .contentContainer .c-paragraph-4 {
+    color: var(--text);
+}
+
+#rewardsAngular .m-card-group .c-card .c-card-content card-content .rewards-card-container .ds-card-sec {
+    color: var(--text);
+}
+
+#rewardsAngular .m-card-group .c-card .c-card-content card-content .rewards-card-container .actionLink .pointLink {
+    color: var(--teal);
+}
+
+a.c-call-to-action.f-lightweight {
+    color: var(--teal);
+}
+
+input.c-text-field[type="text"] {
+    color: var(--text);
+    background-color: var(--surface2);
+    border: 0px;
+    outline: 0px;
+}
+input.c-text-field[type="text"]:hover {
+    border: 0px;
+    outline: 0px;
+}
+input.c-text-field[type="text"]:focus {
+    border: 0px;
+    outline: 0px;
+}
+
+#redeemRewards #dropdownlist {
+    visibility: collapse;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#redeemRewards #charityListComponent #loadmore_button, #redeemRewards #redeemCatalog #loadmore_button {
+    color: var(--text);
+}
+
+hr.c-divider.f-pad-vertical-3x {
+    visibility: collapse;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#footerArea .c-uhff {
+    background-color: var(--base);
+}
+
+#footerArea .c-uhff-base {
+    background-color: var(--base);
+}
+
+#footerArea .c-uhff-base>a.c-uhff-link.c-uhff-lang-selector {
+    color: var(--text);
+}
+
+#footerArea a:link {
+    color: var(--text);
+}
+
+#footerArea .c-uhff-base ul.c-list {
+    color: var(--text);
+}
+
+footer {
+    background-color: var(--surface0);
+}
+
+#footerArea .help-footer ul li .c-hyperlink {
+    color: var(--teal);
+}
