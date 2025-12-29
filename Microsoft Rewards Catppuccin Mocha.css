@@ -27,7 +27,7 @@
 	--mantle: rgb(24, 24, 37);
 	--crust: rgb(17, 17, 27);
 
-    --font: JetBrainsMonoNL NF;
+    --font: JetBrainsMonoNL NF, Monospace;
 	--filter-svg: brightness(50%) sepia(200%) saturate(500000%) hue-rotate(227deg) saturate(5%) brightness(330%);
 }
 
