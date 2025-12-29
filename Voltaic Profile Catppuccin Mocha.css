@@ -1,0 +1,42 @@
+@-moz-document domain("app.voltaic.gg") {
+/* */
+
+
+
+
+
+
+/* hey hey read me */
+
+/* Enable the Dyslexic friendly font setting for the custom font */
+
+
+
+
+
+
+
+
+:root {
+	--surface0: rgb(40, 41, 54);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+    --font: JetBrainsMonoNL NF, Monospace;
+}
+
+.text-dyslexic {
+    font-family: var(--font);
+}
+
+.dark {
+    background-color: var(--base);
+}
+
+.dark\:ring-gray-700:is(.dark *) {
+    background-color: var(--surface0);
+}
+
+.dark\:bg-gray-900:is(.dark *) {
+    background-color: var(--mantle);
+}
+}
