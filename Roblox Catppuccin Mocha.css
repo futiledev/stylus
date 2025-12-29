@@ -1,0 +1,417 @@
+@-moz-document domain("www.roblox.com") {
+/* */
+
+
+
+
+
+
+
+
+
+
+
+
+/*           LET ME GRAB YOUR ATTENTION!!!!!              */
+
+/* Please make sure you're using dark mode on the website */
+/*    It is located in Settings > Browser Preferences     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+	--rosewater: rgb(245, 224, 220);
+	--flamingo: rgb(242, 205, 205);
+	--pink: rgb(245, 194, 231);
+	--mauve: rgb(203, 166, 247);
+	--red: rgb(243, 139, 168);
+	--maroon: rgb(235, 160, 172);
+	--peach: rgb(250, 179, 135);
+	--yellow: rgb(249, 226, 175);
+	--green: rgb(166, 227, 161);
+	--teal: rgb(148, 226, 213);
+	--sky: rgb(137, 220, 235);
+	--sapphire: rgb(116, 199, 236);
+	--blue: rgb(137, 180, 250);
+	--lavender: rgb(180, 190, 254);
+	--text: rgb(205, 214, 244);
+	--subtext1: rgb(186, 194, 222);
+	--subtext0: rgb(166, 173, 200);
+	--overlay2: rgb(147, 153, 178);
+	--overlay1: rgb(127, 132, 156);
+	--overlay0: rgb(108, 112, 134);
+	--surface2: rgb(88, 91, 112);
+	--surface1: rgb(69, 71, 90);
+	--surface0: rgb(40, 41, 54);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+	--crust: rgb(17, 17, 27);
+
+    --font: JetBrainsMonoNL NF;
+	--notification-border-radius: 50%;
+	--profile-border-radius: 50%;
+	--filter-svg: brightness(50%) sepia(200%) saturate(500000%) hue-rotate(227deg) saturate(5%) brightness(330%);
+}
+
+/* Main */
+
+.container-main {
+	background-color: var(--base);
+}
+.dark-theme .content {
+    color: var(--text);
+    background-color: var(--base);
+}
+h1 {
+    font-family: var(--font);
+}
+div {
+    font-family: var(--font);
+}
+span {
+    font-family: var(--font);
+}
+.builder-font button {
+    font-family: var(--font);
+}
+.builder-font .xsmall {
+    font-family: var(--font);
+}
+.builder-font .xsmall:hover {
+    font-family: var(--font);
+}
+.builder-font .font-header-2 {
+    font-family: var(--font);
+}
+.builder-font .font-header-2:hover {
+    font-family: var(--font);
+}
+.builder-font .font-caption-header {
+    font-family: var(--font);
+}
+.builder-font .font-caption-header:hover {
+    font-family: var(--font);
+}
+.dark-theme .rbx-header .navbar-search .input-field {
+    font-family: var(--font);
+}
+.chat-container.collapsed .chat-header .chat-header-title {
+    font-family: var(--font);
+}
+.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:link {
+    font-family: var(--font);
+}
+
+/* Settings Stuff */
+
+#settings-container .menu-vertical {
+    color: var(--text);
+    background-color: var(--surface0);
+}
+
+.dark-theme .section-content {
+    color: var(--text);
+    background-color: var(--surface0);
+}
+
+/* Passkey Thing GO TO HELL */
+.dark-theme .passkey-upsell-banner {
+	visibility: collapse;
+	padding: 0px;
+	margin: 0px;
+	height: 0px;
+}
+
+/* Icons */
+
+.dark-theme .icon-default-logo, .dark-theme .icon-logo {
+    filter: var(--filter-svg);
+}
+.dark-theme .icon-default-logo-r, .dark-theme .icon-logo-r {
+    filter: var(--filter-svg);
+}
+.dark-theme .icon-default-uiblox-common, .dark-theme .icon-common-search, .dark-theme .icon-common-refresh, .dark-theme .icon-common-notification-bell, .dark-theme .icon-common-play {
+	filter: var(--filter-svg);
+}
+.dark-theme .icon-default-economy-28x28, .dark-theme .icon-robux-28x28, .dark-theme .icon-robux-gold-28x28, .dark-theme .icon-robux-gray, .dark-theme .icon-robux-white {
+	filter: var(--filter-svg);
+}
+.dark-theme .icon-default-navigation, .dark-theme .icon-nav-giftcards, .dark-theme .icon-nav-my-feed, .dark-theme .icon-nav-notification-stream, .dark-theme .icon-nav-shop, .dark-theme .icon-nav-search-white, .dark-theme .icon-nav-blog, .dark-theme .icon-nav-group, .dark-theme .icon-nav-trade, .dark-theme .icon-nav-inventory, .dark-theme .icon-nav-charactercustomizer, .dark-theme .icon-nav-friends, .dark-theme .icon-nav-message, .dark-theme .icon-nav-profile, .dark-theme .icon-nav-home, .dark-theme .icon-nav-settings, .dark-theme .icon-nav-robux, .dark-theme .icon-nav-menu {
+	filter: var(--filter-svg);
+}
+.dark-theme.builder-font .see-all-link-icon:after {
+    transform: scale(0.875);
+	filter: var(--filter-svg);
+}
+
+/* Join Modal */
+
+.dark-theme .modal-dialog .modal-content {
+    color: var(--text);
+    background-color: var(--base);
+}
+
+/* Server List */
+
+.dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading {
+    background-color: var(--crust);
+}
+.dark-theme .rbx-tabs-horizontal .rbx-tab.active .rbx-tab-heading {
+    background-color: var(--mantle);
+}
+.dark-theme .stack .card-list .card-item {
+    background-color: var(--mantle);
+}
+.dark-theme .section-content-off {
+    background-color: var(--base);
+}
+
+/* Badge List */
+
+.dark-theme .stack .stack-list .stack-row {
+	color: var(--text);
+    background-color: var(--surface0);
+}
+
+/* Avatar */
+
+.dark-theme .avatar .avatar-card-image {
+    background-color: var(--mantle);
+}
+.avatar-headshot-xs {
+	border-radius: var(--profile-border-radius);
+}
+.dark-theme .game-card-friend-info .info-avatar .avatar {
+    border: 0px solid var(--mantle);
+}
+.avatar-headshot-sm {
+    border-radius: var(--profile-border-radius);
+}
+.legacy-notif-base .avatar-icon-container {
+    border-radius: var(--profile-border-radius);
+}
+.avatar .avatar-card-link, .avatar .avatar-card-image, .avatar-card-fullbody .avatar-card-link, .avatar-card-fullbody .avatar-card-image {
+    border-radius: var(--profile-border-radius);
+}
+.dark-theme .content .add-friends-icon-container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--surface1);
+    border-radius: var(--profile-border-radius);
+}
+.dark-theme .friends-carousel-tile-experience {
+    color: var(--subtext0);
+}
+
+/* Avatar :: Dropdown */
+
+.dark-theme .friend-tile-dropdown {
+    background-color: var(--mantle);
+    border-radius: 5px;
+}
+
+/* Friends */
+
+.dark-theme.builder-font .see-all-link, .dark-theme.builder-font .see-all-link:link, .dark-theme.builder-font .see-all-link:hover, .dark-theme.builder-font .see-all-link:visited, .dark-theme.builder-font .see-all-link:active, .dark-theme.builder-font .refresh-link, .dark-theme.builder-font .refresh-link:link, .dark-theme.builder-font .refresh-link:hover, .dark-theme.builder-font .refresh-link:visited, .dark-theme.builder-font .refresh-link:active, .dark-theme.builder-font .see-all-link-icon, .dark-theme.builder-font .see-all-link-icon:link, .dark-theme.builder-font .see-all-link-icon:hover, .dark-theme.builder-font .see-all-link-icon:visited, .dark-theme.builder-font .see-all-link-icon:active, .dark-theme.builder-font .refresh-link-icon, .dark-theme.builder-font .refresh-link-icon:link, .dark-theme.builder-font .refresh-link-icon:hover, .dark-theme.builder-font .refresh-link-icon:visited, .dark-theme.builder-font .refresh-link-icon:active, .dark-theme.builder-font .touch .see-all-link, .dark-theme.builder-font .touch .see-all-link:link, .dark-theme.builder-font .touch .see-all-link:hover, .dark-theme.builder-font .touch .see-all-link:visited, .dark-theme.builder-font .touch .see-all-link:active, .dark-theme.builder-font .touch .refresh-link, .dark-theme.builder-font .touch .refresh-link:link, .dark-theme.builder-font .touch .refresh-link:hover, .dark-theme.builder-font .touch .refresh-link:visited, .dark-theme.builder-font .touch .refresh-link:active, .dark-theme.builder-font .touch .see-all-link-icon, .dark-theme.builder-font .touch .see-all-link-icon:link, .dark-theme.builder-font .touch .see-all-link-icon:hover, .dark-theme.builder-font .touch .see-all-link-icon:visited, .dark-theme.builder-font .touch .see-all-link-icon:active, .dark-theme.builder-font .touch .refresh-link-icon, .dark-theme.builder-font .touch .refresh-link-icon:link, .dark-theme.builder-font .touch .refresh-link-icon:hover, .dark-theme.builder-font .touch .refresh-link-icon:visited, .dark-theme.builder-font .touch .refresh-link-icon:active {
+    color: var(--text);
+}
+
+/* Profile */
+
+.dark-theme .profile-avatar-left {
+    background-color: var(--base);
+}
+.dark-theme .cover-gradient-overlay {
+    background: linear-gradient(var(--base) 0%, var(--base) 100%);
+}
+
+/* Profile :: Groups */
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-left {
+    background-color: var(--crust);
+}
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-right {
+    color: var(--text);
+    background-color: var(--mantle);
+}
+
+/* Top Bar */
+
+.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:visited, .dark-theme .rbx-header .text-header:focus {
+    color: var(--text);
+}
+.dark-theme .text-link, .dark-theme .vlist .list-item .list-body .list-content a, .vlist .list-item .list-body .list-content .dark-theme a, .dark-theme .text-link:link, .dark-theme .text-link:hover, .dark-theme .text-link:visited, .dark-theme .text-link:active, .dark-theme .text-name, .dark-theme .text-name:link, .dark-theme .text-name:hover, .dark-theme .text-name:visited, .dark-theme .text-name:active, .dark-theme .text-link.small, .dark-theme .vlist .list-item .list-body .list-content a.small, .vlist .list-item .list-body .list-content .dark-theme a.small, .dark-theme .text-link.small:link, .dark-theme .text-link.small:visited, .dark-theme .text-link.small:active, .dark-theme .text-link.xsmall, .dark-theme .vlist .list-item .list-body .list-content a.xsmall, .vlist .list-item .list-body .list-content .dark-theme a.xsmall, .dark-theme .text-link.xsmall:link, .dark-theme .text-link.xsmall:visited, .dark-theme .text-link.xsmall:active, .dark-theme .text-link.xxsmall, .dark-theme .vlist .list-item .list-body .list-content a.xxsmall, .vlist .list-item .list-body .list-content .dark-theme a.xxsmall, .dark-theme .text-link.xxsmall:link, .dark-theme .text-link.xxsmall:visited, .dark-theme .text-link.xxsmall:active, .dark-theme .text-name.small, .dark-theme .text-name.small:link, .dark-theme .text-name.small:visited, .dark-theme .text-name.small:active, .dark-theme .text-name.xsmall, .dark-theme .text-name.xsmall:link, .dark-theme .text-name.xsmall:visited, .dark-theme .text-name.xsmall:active, .dark-theme .text-name.xxsmall, .dark-theme .text-name.xxsmall:link, .dark-theme .text-name.xxsmall:visited, .dark-theme .text-name.xxsmall:active {
+    color: var(--text);
+}
+.dark-theme .dropdown-menu {
+    box-shadow: 0 0 0px rgba(0, 0, 0, .3);
+	background-color: var(--mantle);
+}
+
+/* All Top Bar Left Side Buttons */
+.rbx-header .rbx-navbar li .nav-menu-title {
+	opacity: 0;
+}
+
+/* Robux Button Thing */
+.rbx-header .rbx-navbar li .robux-menu-btn {
+	visibility: collapse;
+}
+
+/* Game Thumbnails */
+.game-card .game-card-container .game-card-link, .game-grid .game-card-container .game-card-link, .game-carousel .game-card-container .game-card-link {
+    background-color: var(--base);
+}
+.dark-theme .hover-game-tile.focused.old-hover {
+    background-color: var(--mantle);
+    color: var(--text);
+}
+
+/* Left Bar */
+
+.dark-theme .rbx-left-col {
+    background-color: var(--mantle);
+    box-shadow: 0 0 0px rgba(0, 0, 0, .3);
+}
+.dark-theme .rbx-left-col li .text-nav:link, .dark-theme .rbx-left-col li .text-nav:visited, .dark-theme .rbx-left-col li .text-nav:active {
+    color: var(--text);
+}
+
+/* Official Store Button */
+.rbx-left-col li button.text-nav {
+	visibility: collapse;
+	height: 0px;
+	margin: -4px 0 0 0;
+}
+
+/* Buy Premium Button */
+.dark-theme .rbx-upgrade-now .btn-secondary-md {
+	visibility: collapse;
+}
+
+/* Search */
+
+.dark-theme .input-group .input-field {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.dark-theme .rbx-header .navbar-search {
+    background-color: var(--surface0);
+}
+.dark-theme .rbx-header .navbar-search .new-dropdown-menu {
+    background-color: var(--base);
+}
+.dark-theme .search-landing-container {
+    background-color: var(--base);
+}
+.dark-theme .horizontal-scroller .scroller .spacer {
+	background-color: var(--base);
+}
+.dark-theme .scroller {
+    opacity: 1;
+	background-color: var(--base);
+    border: none;
+}
+.dark-theme .scroller:hover {
+	background-color: var(--base);
+}
+
+/* Lowkey don't know what these are */
+
+.dark-theme .notification-stream-header, .notification-stream-header.dark-theme {
+    background-color: var(--base);
+}
+
+.dark-theme p, .dark-theme .text, .dark-theme .text-default, .dark-theme .text-secondary, .dark-theme .text-description, .dark-theme .text-label, .dark-theme .text-date-hint, .dark-theme .text-info, .dark-theme .text-footer {
+    color: var(--text);
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .container-empty, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-loading {
+    background-color: var(--mantle);
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list {
+    background-color: var(--mantle);
+}
+.dark-theme .notification-stream-body {
+    background-color: var(--mantle);
+    color: var(--text);
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .sendr-notification-background {
+    background-color: var(--base);
+}
+
+.dark-theme .rbx-header {
+    background-color: var(--mantle);
+    border: 0 solid #202227;
+    border-bottom-width: 0px;
+}
+
+.dark-theme .notification-blue, .dark-theme .notification-red, .dark-theme .notification {
+	color: var(--base);
+    background-color: var(--blue);
+	border-radius: var(--notification-border-radius);
+}
+.web-blox-css-tss-5klspp-Badge-colorError {
+	color: var(--base);
+	background-color: var(--blue);
+	border-radius: var(--notification-border-radius);
+}
+
+.dark-theme .chat-main {
+    background-color: var(--mantle);
+    color: var(--text);
+}
+
+.dark-theme .chat-container .chat-main .chat-header {
+    background-color: var(--mantle);
+}
+
+.dark-theme .chat-windows-header {
+    background-color: var(--mantle);
+    color: var(--text);
+}
+
+.dark-theme .container-footer {
+    background-color: var(--base);
+}
+}
