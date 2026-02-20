@@ -286,6 +286,15 @@ span {
 	background-color: var(--mantle);
 }
 
+/* Left Nav */
+
+.left-nav {
+    display: none !important;
+}
+.no-gutter-ads.left-nav-new-width main.container-main {
+    margin-left: 0px !important;
+}
+
 /* All Top Bar Left Side Buttons */
 .rbx-header .rbx-navbar li .nav-menu-title {
 	opacity: 0;
