@@ -1,0 +1,134 @@
+@-moz-document domain("polytoria.com") {
+
+:root {
+
+	--text-color: rgb(205, 214, 244);
+	--subtext1: rgb(186, 194, 222);
+	--subtext0: rgb(166, 173, 200);
+
+	--accent2: hsl(199, 76%, 69%);
+	--accent1: hsl(199, 76%, 50%);
+	--accent0: hsl(199, 86%, 40%);
+
+
+
+
+
+
+
+
+	--overlay2: rgb(147, 153, 178);
+	--overlay1: rgb(127, 132, 156);
+	--overlay0: rgb(108, 112, 134);
+	--surface2: rgb(88, 91, 112);
+	--surface1: rgb(69, 71, 90);
+	--surface0: rgb(40, 41, 54);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+	--crust: rgb(17, 17, 27);
+
+	--notification-border-radius: 50%;
+	--profile-border-radius: 50%;
+	--filter-svg: brightness(50%) sepia(200%) saturate(500000%) hue-rotate(227deg) saturate(5%) brightness(330%);
+}
+
+/* Text */
+
+* {
+	color: var(--text-color);
+}
+
+.text-muted {
+	color: var(--subtext1) !important;
+}
+
+.text-success {
+	color: var(--accent2) !important;
+}
+.border-success {
+	border-color: var(--accent2) !important;
+}
+
+/* Buttons */
+
+.btn {
+	background-color: var(--surface0) !important;
+}
+.btn:hover {
+	background-color: var(--accent2);
+}
+.btn-primary {
+	background-color: var(--accent0);
+}
+
+/* Cards */
+
+.xp-card {
+	background: var(--surface0);
+}
+.xp-badge {
+	background: linear-gradient(90deg, var(--accent1), var(--accent0));
+}
+.iotd-card {
+	background: linear-gradient(135deg, var(--accent1), var(--accent0));
+}
+.card-dash {
+	background: linear-gradient(180deg, var(--surface0), var(--base));
+}
+.card {
+	background-color: var(--surface0) !important;
+}
+.place-card:hover {
+	border-color: var(--mantle) !important;
+}
+
+/* Bg */
+
+body {
+	background-color: var(--mantle);
+}
+
+/* Navigation Bar */
+
+.navbar {
+	background-color: var(--base);
+}
+.navbar-collapse {
+	background-color: var(--base);
+}
+.container-fluid {
+	background-color: var(--base);
+}
+.input-group.nav-search input {
+	background-color: var(--mantle) !important;
+}
+.input-group.nav-search #search-addon {
+	background-color: var(--mantle) !important;
+}
+
+.nav-sidebar-cont .nav-sidebar {
+	background-color: var(--base) !important;
+}
+.nav-sidebar-button {
+	background-color: var(--base) !important;
+	border-color: var(--mantle) !important;
+}
+.nav-sidebar-upgrade-button {
+	background: linear-gradient(180deg, var(--accent2), var(--accent0));
+}
+
+/* Dropdowns */
+
+.notifications-popup {
+	background-color: var(--base) !important;
+	border-color: var(--mantle);
+}
+.notifications-popup .notification-item.unread {
+	border-color: var(--accent2) !important;
+}
+
+.dropdown-menu-end {
+	background-color: var(--base) !important;
+}
+
+}
