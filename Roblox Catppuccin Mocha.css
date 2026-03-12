@@ -1,5 +1,5 @@
 @-moz-document domain("roblox.com") {
-/* Roblox Catppuccin Mocha 2.0.1 - Stylus by @qzgh (larabear) */
+/* Roblox Catppuccin Mocha 2.0.2 - Stylus by @qzgh (larabear) */
 
 /* Importing Fonts */
 
@@ -52,7 +52,7 @@ button.text-body-medium.edit-bio-btn.content-default {
 
 /* Background Colors */ 
 
-.dark-theme, div.navbar-left.navbar-search.col-xs-5.col-sm-6.col-md-2.col-lg-3.shown, section.search-landing-container, div.scroller.prev, div.scroller.next, div.spacer, div.profile-avatar-left.profile-avatar-gradient, div#radix-21 {
+.dark-theme, div.navbar-left.navbar-search.col-xs-5.col-sm-6.col-md-2.col-lg-3.shown, section.search-landing-container, div.scroller.prev, div.scroller.next, div.spacer, div.profile-avatar-left.profile-avatar-gradient, div#radix-21, .dark-theme .section-content-off {
 	background-color: var(--c_bg-dark) !important;
 }
 
@@ -60,7 +60,7 @@ footer, div#header.navbar-fixed-top.rbx-header, div.chat-windows-header.chat-hea
 	background-color: var(--c_hd-dark) !important;
 }
 
-div#chat-main.chat-main, .notification-stream-list, div.notification-stream-loading, div.sendr-notification-background.sendr-notification-visible, div.sendr-notification-background.sendr-notification-dismissed, .dropdown-menu, div#notification-stream-body {
+div#chat-main.chat-main, .notification-stream-list, div.notification-stream-loading, div.sendr-notification-background.sendr-notification-visible, div.sendr-notification-background.sendr-notification-dismissed, .dropdown-menu, div#notification-stream-body, div.add-friends-icon-container::before, a.rbx-tab-heading, li.stack-row.badge-row, div.card-item {
     background-color: var(--c_sf0-dark) !important;
 }
 
