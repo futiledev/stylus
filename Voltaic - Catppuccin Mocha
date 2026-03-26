@@ -1,0 +1,28 @@
+@-moz-document domain("app.voltaic.gg") {
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:ital,wght@0,600&display=swap");
+
+:root {
+    --text: rgb(255, 255, 255);
+	--surface0: rgb(40, 41, 54);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+    --font: Fredoka;
+}
+
+html, .text-title, .text-title-secondary, .text-geom, .text-sm, .text-medium {
+    font-family: var(--font);
+    color: var(--text);
+}
+
+html {
+    background-color: var(--base);
+}
+
+.dark\:ring-gray-700:is(.dark *), .dark\:hover\:before\:bg-gray-800\/50:hover:is(.dark *):before, .dark\:before\:bg-gray-800:is(.dark *):before {
+    background-color: var(--surface0);
+}
+
+.dark\:bg-gray-900:is(.dark *), .dark\:bg-gray-800:is(.dark *), .dark\:disabled\:bg-gray-900:disabled:is(.dark *) {
+    background-color: var(--mantle);
+}
+}
